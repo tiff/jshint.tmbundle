@@ -7,6 +7,7 @@ This version provides a tool tip on save instead of spawning a new window contai
 Features:
 
 * Pretty UI
+* Pre-configured to be used for client side as well as server side development
 * Highlights critical errors
 * Runs tooltip automatically upon save (⌘S)
 * Validation screen opens on ⇧⌘V
@@ -17,7 +18,7 @@ Features:
 
 ## Installation
 
-Download the [zip file](https://github.com/MrNibbles/jshint.tmbundle/zipball/master) and rename the
+Download the [zip file](https://github.com/tiff/jshint.tmbundle/zipball/master) and rename the
 extracted folder to `jshint.tmbundle`. Double-click.
 
 ## Prerequisites
@@ -35,3 +36,4 @@ You can set the PATH either via Preferences → Advanced → Shell Variables or 
 * [Pierre Bertet](https://github.com/bpierre/)
 * [Rob-ot](https://github.com/Rob-ot/)
 * [Anthony Mann](https://github.com/MrNibbles/)
+* [Christopher Blum](https://github.com/tiff/)
