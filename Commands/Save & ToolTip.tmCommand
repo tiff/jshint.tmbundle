@@ -10,8 +10,20 @@ var env = process.env || process.ENV,
     jshint = require(env.TM_BUNDLE_SUPPORT + '/jshint-tooltip-tm');
 
 jshint({
-    es5: true,
-    forin: true,
+    forin:true,
+    noarg:true,
+    noempty:true,
+    bitwise:true,
+    undef:true,
+    unused:true,
+    curly:true,
+    browser:true,
+    devel:true,
+    jquery:true,
+    es5:true,
+    node:true,
+    maxerr:50,
+    strict: false,
     laxbreak: true,
     predef: [
         // CommonJS
