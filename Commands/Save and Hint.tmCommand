@@ -10,9 +10,20 @@ var env = process.env || process.ENV,
     jshint = require(env.TM_BUNDLE_SUPPORT + '/jshint-tm');
 
 jshint({
-    es5: true,
-    laxbreak: true,
-    forin: true,
+    forin:true,
+    noarg:true,
+    noempty:true,
+    bitwise:true,
+    undef:true,
+    unused:true,
+    curly:true,
+    browser:true,
+    devel:true,
+    jquery:true,
+    es5:true,
+    node:true,
+    maxerr:50,
+    strict: false,
     predef: [
         // CommonJS
         "exports",
